@@ -1,0 +1,42 @@
+/* adds styling to the content */
+
+html {
+  font-family: monospace, sans-serif;
+  font-size: 4vw;
+  background: yellow;
+  background-image: url("https://cdn.glitch.com/b9561c76-c614-4a0a-a0d2-0164ea97b6f7%2Fimage2vector.svg?1558433304935");
+}
+
+form {
+  margin: 0 auto;
+  font-family: inherit;
+  font-size: 100%;
+  width: 80vw;
+  padding: 5vw;
+  border-radius: 5vw;
+  background-color: rgba(255, 255, 255, .7);
+}
+      
+input, output {
+  font-family: inherit;
+  font-size: 6vw;
+  width: 15vw;
+  padding: 3vw;
+}
+      
+form div + div {
+  margin-top: 1vw;
+}
+      
+label {
+  display: inline-block;
+  width: 55vw;
+  text-align: left;
+}
+      
+h1 {
+  color: brown;
+  font-size: 7vw;
+  font-family: monospace;
+  text-align: center;
+}

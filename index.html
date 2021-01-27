@@ -1,0 +1,62 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    
+    <link rel="shortcut icon" href="https://cdn.glitch.com/b9561c76-c614-4a0a-a0d2-0164ea97b6f7%2Ffavicon.ICO?v=1565612814441">
+    <link rel="icon" sizes="192x192" href="https://cdn.glitch.com/b9561c76-c614-4a0a-a0d2-0164ea97b6f7%2Ffavicon-192x192.PNG?v=1565757740156">
+    <link rel="apple-touch-icon" href="https://cdn.glitch.com/b9561c76-c614-4a0a-a0d2-0164ea97b6f7%2Fapple-touch-icon.PNG?v=1565759282295">
+    <meta name="msapplication-square150x150logo" content="https://cdn.glitch.com/b9561c76-c614-4a0a-a0d2-0164ea97b6f7%2Fms-icon-150x150.PNG?v=15657895">
+    
+    <meta charset="utf-8">
+
+    <title>Jang JP-1 Push Seeder Calculator</title>
+    
+    <!-- import the webpage's stylesheet -->
+    <link rel="stylesheet" href="/style.css">
+    
+    <!-- import the webpage's javascript file -->
+    <script src="/script.js" defer></script>
+    
+  </head>
+
+  <body>
+    
+    <h1 id="source">Jang JP-1 Calculator</h1>
+    
+    <form id="myForm">
+      <div>
+        <label for="feedWeight">Seeds from 20 turns of the roller (g): </label>
+        <input type="number" id="feedWeight">
+      </div>
+      <div>
+        <label for="frontSprocket">Teeth in front sprocket (9-14): </label>
+        <input type="tel" id="frontSprocket">
+      </div>
+      <div>
+        <label for="rearSprocket">Teeth in rear sprocket (9-14): </label>
+        <input type="tel" id="rearSprocket">
+      </div>
+      <div>
+        <label for="seedWeight">Weight of 1000 seeds (g): </label>
+        <input type="number" id="seedWeight">
+      </div>
+      <div>
+        <label for="bedLength">Lenght of bed (m): </label>
+        <input type="tel" id="bedLength">
+      </div>
+      <div>        
+        <label for="bedRows">Number of rows in the bed: </label>
+        <input type="tel" id="bedRows">
+      </div>
+      <div>
+        <label for="seedRate">Rate (seeds/m):</label><output id="seedRate"></output>
+        <label for="seedConsumption"> Sum of seeds (g):</label><output id="seedConsumption"></output>
+        <label for="seedInBed"> Seeds per bed:</label><output id="seedInBed"></output>
+      </div>
+    </form>
+    
+  </body>
+    
+      <div class="glitchButton" style="position:fixed;top:20px;right:20px;"></div>
+    <script src="https://button.glitch.me/button.js"></script>
+</html>
